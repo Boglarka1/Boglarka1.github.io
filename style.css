@@ -1,0 +1,168 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imges/Névtelen.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* felső 4 évszak */
+td.tavasz, td.osz, td.nyar, td.tel {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 15px; 
+    padding: 1px;
+    font-size: 20px;
+}
+
+td.tavasz {
+    border: 4px solid green;
+    background-color: greenyellow;
+}
+
+td.osz {
+    border: 4px solid brown;
+    background-color: burlywood;
+}
+
+td.nyar {
+    border: 4px solid rgb(210, 196, 0);
+    background-color: yellow;
+}
+
+td.tel {
+    border: 4px solid lightblue;
+    background-color: blue;
+    margin-right: 200px;
+}
+
+tr.evszakok {
+    text-align: right;
+}
+
+table {
+    width: 90vw;
+    margin-right: 10px;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+/* 11x11 */
+table.fotabla {
+    width: 70%;
+    height: auto;
+    padding: 5px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    float: left;
+    aspect-ratio: 1/1; 
+    max-width: 33rem; 
+    background-color: white;
+    margin-left: 1vw;
+}
+
+td.fotabla {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    background-size: cover; 
+    background-color: rgba(240, 240, 140, 0.959);
+}
+
+.fok{
+    overflow: auto;
+}
+
+.container {
+    float:left; 
+    margin-left: 2vw; 
+    font-size: 100%;
+    width: 40%;
+}
+
+
+/* abcd */
+table.evszakképek {
+    width: 50%;
+    margin: 15px;
+    border-spacing: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table.evszakképek td {
+    position: relative; 
+    padding: 10px; 
+}
+
+/* abcd szöveg */
+td.bottom-right {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;   
+    background-size: cover; 
+    background-position: center;
+    text-align: right;  
+    color: white; 
+    margin: 10px;
+}
+
+td.bottom-right::before {
+    content: '';
+    display: inline-block;
+    height: 100vh;
+    vertical-align: left;
+    width: 18vw;
+    height: 9vh;
+}
+
+td.bottom-right span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* shape */
+.shape-cell {
+    margin-left: 1vw;
+    border: 4px black solid;
+    display: flex;
+    float: left;
+}
+
+/* tükr forg */
+.buttons{
+    width: 7vw;
+    height: 7vh;
+    font: 1.7em arial ;
+    float: left;
+    margin-left: 5vw auto;
+    text-align: center;
+}
+
+.shapetime{
+    width: auto;
+    font-size: 1.7em;
+    display:flex;
+    border: 3px black solid;
+    padding: 3px;
+    background-color: beige;
+    float: left;
+    margin-left: 0.5vw;
+}
+
+.hm{
+    float: left;
+}
