@@ -1,1 +1,1 @@
-Valami furcsa játék 
+Kartográfusok játék
